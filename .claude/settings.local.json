@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /Users/rathindharar.m./Downloads/bitchat-latest-master/app/src/main/java/com/bitchat/android/**/*.kt)",
+      "Bash(./gradlew build:*)",
+      "Bash(chmod +x /Users/rathindharar.m./Downloads/bitchat-latest-master/gradlew)",
+      "Bash(bash /Users/rathindharar.m./Downloads/bitchat-latest-master/gradlew build)",
+      "Bash(java --version)",
+      "Bash(echo $ANDROID_HOME)",
+      "Bash(gh auth:*)",
+      "Bash(brew list:*)",
+      "Bash(find /Users/rathindharar.m./Downloads/bitchat-latest-master/app/src/main/res/values* -name \"strings.xml\" -type f)",
+      "Bash(grep -l \"app_brand\\\\|app_name\" /Users/rathindharar.m./Downloads/bitchat-latest-master/app/src/main/java/com/bitchat/android/ui/*.kt)",
+      "Bash(find app/src/main/res -name \"strings.xml\" -exec sed -i '' 's/>bitchat</>MeshWave</g' {} +)",
+      "Bash(find app/src/main/res -name \"strings.xml\" -not -path \"*/values/strings.xml\" -exec sed -i '' 's/bitchat/MeshWave/g' {} +)",
+      "Bash(xmllint --noout /Users/rathindharar.m./Downloads/bitchat-latest-master/app/src/main/res/drawable/ic_launcher_foreground.xml)",
+      "Bash(xmllint --noout /Users/rathindharar.m./Downloads/bitchat-latest-master/app/src/main/res/drawable/ic_launcher_background.xml)",
+      "Bash(find /Users/rathindharar.m./Downloads/bitchat-latest-master -name *Hex* -o -name *hex*)",
+      "Bash(xmllint --noout /Users/rathindharar.m./Downloads/bitchat-latest-master/app/src/main/res/drawable/ic_launcher_monochrome.xml)",
+      "Bash(xmllint --noout /Users/rathindharar.m./Downloads/bitchat-latest-master/app/src/main/res/values/themes.xml /Users/rathindharar.m./Downloads/bitchat-latest-master/app/src/main/res/values-night/themes.xml)",
+      "Bash(cat:*)"
+    ]
+  }
+}
